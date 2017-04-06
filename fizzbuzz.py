@@ -57,5 +57,5 @@ for n in range(1,a):
 
     fizzbuzz.append(entry)
 
-for i in fizzbuzz:
-    print(i)
+for n in fizzbuzz:
+    print(n)
