@@ -47,5 +47,15 @@ Buzz
 a= int(input("How many numbers shall we print? "))
 f= int(input("For multiples of what number shall we print 'Fizz'? "))
 b= int(input("For multiples of what number shall we print 'Buzz'? "))
-for n in range(1, a):
-    
+for n in range(1,a):
+    if n n%3 == 0:
+        entry += "fizz"
+    if n%5 == 0:
+        entry += "buzz"
+    if i%3 != 0 and i%5 != 0:
+        entry = i
+
+    fizzbuzz.append(entry)
+
+for i in fizzbuzz:
+    print(i)
