@@ -48,7 +48,7 @@ a= int(input("How many numbers shall we print? "))
 f= int(input("For multiples of what number shall we print 'Fizz'? "))
 b= int(input("For multiples of what number shall we print 'Buzz'? "))
 for n in range(1,a):
-    if n n%3 == 0:
+    if n n/3 == 0:
         entry += "fizz"
     if n%5 == 0:
         entry += "buzz"
