@@ -53,7 +53,7 @@ for n in range(1,a):
     if n%5 == 0:
         entry += "buzz"
     if n%3 != 0 and n%5 != 0:
-        entry = i
+        entry = n
 
     fizzbuzz.append(entry)
 
