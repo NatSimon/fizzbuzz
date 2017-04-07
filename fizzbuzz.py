@@ -49,11 +49,11 @@ a= int(input("How many numbers shall we print? "))
 f= int(input("For multiples of what number shall we print 'Fizz'? "))
 b= int(input("For multiples of what number shall we print 'Buzz'? "))
 for n in range(1,a):
-    if n%3 == 0:
-        entry += "fizz"
-    if n%5 == 0:
-        entry += "buzz"
-    if n%3 != 0 and n%5 != 0:
+    if n%f == 0:
+       print ("fizz")
+    if n%b == 0:
+        print ("buzz")
+    if n%f != 0 and n%b != 0:
         entry += str(n)
 
     print(n)
