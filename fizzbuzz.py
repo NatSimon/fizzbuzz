@@ -49,9 +49,9 @@ f= int(input("For multiples of what number shall we print 'Fizz'? "))
 b= int(input("For multiples of what number shall we print 'Buzz'? "))
 for n in range(1,a+1):
     if n%f == 0 and n%b !=0:
-       print ("fizz")
+       print ("Fizz")
     if n%b == 0 and n%f !=0:
-        print ("buzz")
+        print ("Buzz")
     if n%f == 0 and n%b == 0:
         print ("FizzBuzz")
     if n%f != 0 and n%b != 0:
